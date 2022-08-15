@@ -72,22 +72,29 @@
 
     /* hero section start */
     #hero {
-        background-position: right 25% bottom 45%;
+        height: 60vh;
+        background: none;
+        background-color: antiquewhite;
     }
 
     #hero .content {
-        padding: 30px 0 0 0px;
+        text-align: center;
+       align-items: center;
+       justify-content: center;
         width: 100%;
     }
 
     .content h2 {
-        font-size: 30px;
+        font-size: 35px;
         width: 100%;
     }
 
     .content p {
         width: 100%;
         font-size: 16px;
+    }
+    .bottom-fit {
+        display: none;
     }
 
     #dipartment h1 {
@@ -124,6 +131,7 @@
 }
 
 @media (max-width:700px) {
+
 
     /* footer section */
     .bottom {
